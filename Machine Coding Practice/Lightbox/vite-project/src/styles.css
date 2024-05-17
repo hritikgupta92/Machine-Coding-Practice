@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+.image-listing
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.image-listing>div{
+    flex:1 33%;
+    padding: 5px;
+    width:33%;
+    cursor: pointer;
+    
+}
+.image-listing>div img{
+    width:100%;
+    border: 3px solid gray;
+   
+}
+.image-listing > div.active img{
+    border-color: lightskyblue ;
+}
+ 
